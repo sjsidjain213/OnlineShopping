@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+<servlet>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>xyz.Registration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+<url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>Servlet</servlet-name>
+    <servlet-class>xyz.Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+<url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+    <servlet-name>ProductAssign</servlet-name>
+    <servlet-class>xyz.ProductAssign</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>ProductAssign</servlet-name>
+<url-pattern>/ProductAssign</url-pattern>
+    </servlet-mapping>
+         <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>xyz.Cart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+<url-pattern>/Cart</url-pattern>
+    </servlet-mapping>
+    
+         <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>xyz.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+<url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    
+    
+         <servlet>
+    <servlet-name>Trans</servlet-name>
+    <servlet-class>xyz.Trans</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Trans</servlet-name>
+<url-pattern>/Trans</url-pattern>
+    </servlet-mapping>
+    
+    
+         <servlet>
+    <servlet-name>LastMid</servlet-name>
+    <servlet-class>xyz.LastMid</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>LastMid</servlet-name>
+<url-pattern>/LastMid</url-pattern>
+    </servlet-mapping>
+
+         <servlet>
+    <servlet-name>remove</servlet-name>
+    <servlet-class>xyz.remove</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>remove</servlet-name>
+<url-pattern>/remove</url-pattern>
+    </servlet-mapping>
+
+         <servlet>
+    <servlet-name>Buy</servlet-name>
+    <servlet-class>xyz.Buy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Buy</servlet-name>
+<url-pattern>/Buy</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>CheckOut</servlet-name>
+    <servlet-class>xyz.CheckOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>CheckOut</servlet-name>
+<url-pattern>/CheckOut</url-pattern>
+    </servlet-mapping>
+</web-app>
